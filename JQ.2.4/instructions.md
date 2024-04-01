@@ -1,0 +1,2 @@
+# Toggling Classes
+Last week you learned how to execute code when an element is clicked. Use that knowledge here on the #clickMe div. Every time the div is clicked toggle the class 'darkMode' on the #contentContainer.

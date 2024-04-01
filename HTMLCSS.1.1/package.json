@@ -1,0 +1,15 @@
+{
+  "name": "html-css-day-1-pt-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.5.3",
+    "jsdom": "^16.4.0"
+  }
+}

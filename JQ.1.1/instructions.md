@@ -1,0 +1,2 @@
+# jQuery - Selecting ID's
+One of the easiest ways to select an element from the DOM is through that elements ID. Go ahead and select the #test ID in the javascript and change the color to blue. Once that is complete go ahead and submit this assignment.

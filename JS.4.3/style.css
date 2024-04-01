@@ -1,0 +1,10 @@
+#button {
+  padding: 8px;
+  background-color: #ded;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+#hiddenContent {
+  display: none;
+}

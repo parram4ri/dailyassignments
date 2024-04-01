@@ -1,0 +1,2 @@
+# Instructions
+The goal is when a user clicks the create new button we get a new container on the page that allows the user to toggle some text. We did a lot of this for you. What you need to do is when a user clicks the 'toggle text' go ahead and toggle the 'noDisplay' class on the paragraph tag with the following text 'Suprise! Here is some text.' Good luck!

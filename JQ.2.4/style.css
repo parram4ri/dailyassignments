@@ -1,0 +1,28 @@
+body, div, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  padding: 10px; 
+}
+
+#clickMe {
+  background-color: #eff;
+  display: inline-block;
+  padding:10px;
+  font-family: Helvetica;
+  border-radius: 3px;
+}
+
+#clickMe:hover {
+  cursor: pointer;
+}
+
+
+
+
+.darkMode {
+  background-color: #034;
+}

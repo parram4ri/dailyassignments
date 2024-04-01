@@ -1,0 +1,78 @@
+a, h1, h2, h3, div, body, html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/**************************/
+/******** Example1 ********/
+/**************************/
+
+.example h1 {
+  margin: 20px;
+  font-family: Helvetica;
+}
+
+#nav {
+  background-color: #aaa;
+  padding: 10px;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+#nav a {
+  color: #eee;
+  font-size: 18px;
+}
+
+/**************************/
+/******* Practice 1 *******/
+/**************************/
+
+#practice1 {
+  margin: 40px 0;
+}
+
+
+/**************************/
+/******** Example2 ********/
+/**************************/
+
+#imagesContainer {
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+.image {
+  background-color: #abc;
+  float: left;
+  padding: 20px;
+  margin: 0 10px;
+  
+}
+
+
+/**************************/
+/******** Example3 ********/
+/**************************/
+
+#example3 {
+  clear: both;
+}
+
+#mainBackground {
+  background-color: #bca;
+}
+
+#textContainer {
+  padding: 100px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+#textContainer h1 {
+  margin: 0;
+  font-size: 50px;
+  
+}

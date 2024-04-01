@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "dependencies": {
+    "types-registry": "^0.1.684"
+  },
+  "devDependencies": {
+    "@types/atob": "^2.1.2",
+    "@types/sprintf": "^0.1.0"
+  }
+}

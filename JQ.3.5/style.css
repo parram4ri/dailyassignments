@@ -1,0 +1,28 @@
+#createButton {
+  font-family: Helvetica;
+  padding: 10px;
+  background-color: #efe;
+  display: inline-block;
+}
+
+#createButton:hover, .toggleText:hover {
+  cursor: pointer;
+}
+
+.textContainer {
+  display: flex;
+  background-color: #f8f8f8;
+  align-items: center;
+  font-family: Helvetica;
+  margin-top: 10px;
+}
+
+.toggleText {
+  padding: 10px;
+  margin-right: 10px;
+  color: lightBlue;
+}
+
+.noDisplay {
+  display: none;
+}

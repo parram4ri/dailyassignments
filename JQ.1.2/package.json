@@ -1,0 +1,19 @@
+{
+  "name": "jquery-day-1-pt-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cherio": "^1.0.0-rc.2",
+    "jest": "^26.6.3"
+  }
+}

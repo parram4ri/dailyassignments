@@ -1,0 +1,24 @@
+#leftSide {
+  padding: 20px;
+  background-color: #def;
+}
+
+#rightSide {
+  padding: 20px;
+  background-color: #fde;
+}
+
+#problem2 {
+  
+}
+
+#cardsContainer {
+  
+}
+
+.card {
+  padding: 20px;
+  background-color: #dfd;
+  margin-right: 10px;
+  margin-top: 10px;
+}

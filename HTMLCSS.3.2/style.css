@@ -1,0 +1,19 @@
+.parent {
+  
+}
+
+.redBox, .yellowBox, .greenBox {
+  display: inline-block;
+}
+
+.redBox {
+  background-color: red;
+}
+
+.yellowBox {
+  background-color: yellow;
+}
+
+.greenBox {
+  background-color: green;
+}

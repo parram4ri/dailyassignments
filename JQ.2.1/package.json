@@ -1,0 +1,20 @@
+{
+  "name": "jquery-day-2-pt-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npx jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.6.3",
+    "jest": "^25.5.4",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0"
+  }
+}

@@ -1,0 +1,39 @@
+html, body, div {
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  background-color: #ddf;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+#absoluteChild {
+  background-color: #aaf;
+  height: 200px;
+}
+
+#firstBox {
+  background-color: #bff;
+  height: 100px;
+  width: 100px;
+}
+
+#relativeParent {
+  background-color: #ebb;
+  height: 100px;
+}
+
+#secondBox {
+  background-color: #afb;
+  height: 100px;
+  width: 100px;
+}

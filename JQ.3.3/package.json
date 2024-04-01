@@ -1,0 +1,16 @@
+{
+  "name": "jquery-day-3-pt-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "npx jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.6.3",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0"
+  }
+}

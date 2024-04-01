@@ -1,0 +1,21 @@
+.base, .model-padding, .model-border {
+  background-color: #abc;
+}
+
+.model-padding {
+  padding: 20px;
+}
+
+.model-border {
+  
+  padding: 20px;
+  border: 5px solid black;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.model-margin {
+  margin: 10px;
+}

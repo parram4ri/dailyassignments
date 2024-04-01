@@ -1,0 +1,52 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.inputSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+form div label {
+  padding-right: 10px;
+}
+
+form div input {
+  padding: 5px;
+}
+
+form h1 {
+  margin-bottom: 20px;
+}
+
+#submitButton {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+#submitButton:hover {
+  cursor: pointer;
+}
+
+#output {
+  max-width: 250px;
+}

@@ -1,0 +1,1 @@
+let containerChildren = $('#mainCardsContainer').children();

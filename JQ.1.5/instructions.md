@@ -1,0 +1,2 @@
+# Using both children() and parents()
+Now that you know how to use both of these functions lets use them together! Select the #selectMe element as your starting place. Traverse to the paragraph element that has the text, "Only meant for the best of the best." Change this text to say, "Meant for large enterprises looking for an edge." Don't forget to rewrap you parent and child elements in the jQuery object so you can keep using the jQuery functions.

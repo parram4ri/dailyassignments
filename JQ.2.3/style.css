@@ -1,0 +1,13 @@
+.inStock, .notInStock {
+  padding: 10px;
+  margin: 10px 0;
+  font-family: Helvetica;
+}
+
+.inStock {
+  background-color: #79f;
+}
+
+.notInStock {
+  background-color: #eff;
+}
