@@ -14,30 +14,32 @@ EX. Javascript, day 2, part 3 = JS.2.3
 
 1. Install git on your computer. Instructions can be found in the git.md file in this repository.
 
-2. Create a github account.
+2. Install NodeJS on your computer. Instructions can be found in this link: https://nodejs.org/en/download/package-manager
 
-3. Fork this repository to your GitHub account by clicking the "Fork" button at the top right corner of this page.
+3. Create a github account.
 
-4. Clone the forked repository to your local machine:
+4. Fork this repository to your GitHub account by clicking the "Fork" button at the top right corner of this page.
+
+5. Clone the forked repository to your local machine:
 
    ```bash
    git clone https://github.com/yourusername/dailyassignments.git
    ```
 
-5. Navigate to the specific unit, day, and part directory you want to work on.
+6. Navigate to the specific unit, day, and part directory you want to work on.
 
-6. Read the `instructions.md` file carefully. It contains detailed instructions on what needs to be implemented for the assignment.
+7. Read the `instructions.md` file carefully. It contains detailed instructions on what needs to be implemented for the assignment.
 
-7. Complete the assignment according to the instructions.
+8. Complete the assignment according to the instructions.
 
-8. Once you have completed the assignment, commit your changes locally:
+9. Once you have completed the assignment, commit your changes locally:
 
    ```bash
    git add .
    git commit -m "Completed assignment for unit X, day Y, part Z"
    ```
 
-9. Push your changes to your forked repository on GitHub:
+10. Push your changes to your forked repository on GitHub:
 
    ```bash
    git push origin main
