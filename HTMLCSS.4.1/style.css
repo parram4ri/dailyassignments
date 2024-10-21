@@ -7,7 +7,6 @@ a, h1, h2, h3, div, body, html {
 /**************************/
 /******** Example1 ********/
 /**************************/
-
 .example h1 {
   margin: 20px;
   font-family: Helvetica;
@@ -30,8 +29,22 @@ a, h1, h2, h3, div, body, html {
 /**************************/
 
 #practice1 {
-  margin: 40px 0;
+  font-family: 'nunito';
 }
+
+#nav-1 {
+  background-color: #055377bf;
+  padding: 30px;
+  text-align: center;
+  font-family: 'nunito';
+  word-spacing: 200px ;
+}
+
+#nav-1 a {
+  color: #ffffff;
+  font-size: 30px;
+}
+
 
 
 /**************************/
@@ -51,7 +64,23 @@ a, h1, h2, h3, div, body, html {
   margin: 0 10px;
   
 }
+/**************************/
+/******* Practice 2 *******/
+/**************************/
 
+#imagesContainer1 {
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+.image1 {
+  background-color: #abc;
+  float: left;
+  padding: 20px;
+  margin: 0 10px;
+  
+}
 
 /**************************/
 /******** Example3 ********/
@@ -74,5 +103,27 @@ a, h1, h2, h3, div, body, html {
 #textContainer h1 {
   margin: 0;
   font-size: 50px;
+  
+}
+/**************************/
+/******* Practice 3 *******/
+/**************************/
+#practice3 {
+  clear: both;
+}
+
+#mainBackground1 {
+  background-color: rgb(158, 228, 252);
+}
+
+#textContainer1 {
+  padding: 200px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+#textContainer1 h1 {
+  margin: 0;
+  font-size: 45px;
   
 }
