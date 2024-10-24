@@ -1,19 +1,23 @@
+
 #leftSide {
   padding: 20px;
   background-color: #def;
+  float: left;
 }
 
 #rightSide {
   padding: 20px;
   background-color: #fde;
+  float: right;
 }
 
+
 #problem2 {
-  
+  clear:both;
 }
 
 #cardsContainer {
-  
+  text-align: center;
 }
 
 .card {
@@ -21,4 +25,6 @@
   background-color: #dfd;
   margin-right: 10px;
   margin-top: 10px;
+  float: left;
+  display: inline-block;
 }
