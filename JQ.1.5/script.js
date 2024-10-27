@@ -1,4 +1,4 @@
-let parents = $("#selectMe").parents();
-let lastCard = $(parents).next();
-let p = $(lastCard).children()[1];
-$(p).text("Meant for large enterprises looking for an edge.");
+let parents = $("#selectMe").parents(".card");
+let lastCard = parents.next(".card");
+let p = lastCard.children("p");
+p.text("Meant for large enterprises looking for an edge.");
