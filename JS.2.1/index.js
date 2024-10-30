@@ -6,7 +6,7 @@ let x = 30;
 let y = 20;
 let z = true;
 
-if(x < y) {
+if(x > y) {   
   z = true;
 } else {
   z = false;
@@ -20,7 +20,7 @@ let a = "10% off!";
 let b = "Love it!";
 let c = true;
 
-if(a === b) {
+if(a !== b) {    
   c = true;
 } else {
   c = false;
@@ -34,10 +34,10 @@ let d = 5;
 let e = 5;
 let f = true;
 
-if(d === e) {
-  f = false;
-} else {
+if(d === e) {   
   f = true;
+} else {
+  f = false;
 }
 
 //------------------------
@@ -49,8 +49,8 @@ let h = 50;
 let i = 20;
 let j = true;
 
-if(g >= i) {
-  if(i >= h) {
+if(g <= i) {         
+  if(i <= h) {       
     j = true;
   } else {
     j = false;
@@ -58,7 +58,6 @@ if(g >= i) {
 } else {
   j = false;
 }
-
 //------------------------
 // Problem 5
 //------------------------
@@ -74,7 +73,7 @@ if(k > l) {
 else if(l < k) {
   n = false;
 }
-else if(l == m) {
+else if(l !== m) {   
   n = false;
 } else {
   n = true;
@@ -88,7 +87,7 @@ let o = 20;
 let p = 20;
 let q = true;
 
-if(o !== p) {
+if(o === p) {       
   q = true;
 } else {
   q = false;
@@ -98,22 +97,21 @@ if(o !== p) {
 // Problem 7
 //------------------------
 
-let r = 12 < 2 ? true : false;
-
+let r = 12 > 2 ? true : false;   
 //------------------------
 // Problem 8
 //------------------------
 
-let s = "Hello!" === "Hello!" ? false : true;
+let s = "Hello!" !== "Hello!" ? true : false;  
 
 //------------------------
 // Problem 9
 //------------------------
 
-let t = 50 == "50" ? false : true;
+let t = 50 === "50" ? true : false;  
 
 //------------------------
 // Problem 10
 //------------------------
 
-let u = 5 !== 5 ? true : false;
+let u = 5 === 5 ? true : false;    
