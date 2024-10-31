@@ -1,61 +1,54 @@
 // Problem 1
-// We are going to create a function called addTwoNumbers
-// It will take two parameters.
-// Add the two parameters together and return the sum.
-
+// Function that adds two numbers and returns the sum
 function addTwoNumbers(a, b) {
-  // add the two parameters together into sum.
   let sum = a + b;
-  console.log("Made it");
-  // the return statement is important cause that is what we get back
-  // when the function executes
   return sum;
 }
 
-console.log(addTwoNumbers(1,1))
+console.log(addTwoNumbers(1, 1)); 
 
 
 // Problem 2
-// Our function name is going to be perimeter.
-// We will have two parameters. A width and a height.
-// Find the perimeter and return that value.
-// Perimeter is width + width + height + height
-
+// Function that calculates the perimeter of a rectangle and returns it
 function perimeter(width, height) {
-  let answer;
+  let answer = width + width + height + height;
   return answer;
 }
 
+console.log(perimeter(5, 10)); 
 
 
 // Problem 3
-// The function name will be area.
-// We will take two parameters. Width and height.
-// Find the area and return that value.
-// Area is width * height
-
+// Function that calculates the area of a rectangle and returns it
 function area(width, height) {
-  let answer;
+  let answer = width * height;
   return answer;
 }
 
+console.log(area(5, 10)); 
+
 
 // Problem 4
-// The function name will be helloMessage.
-// It will take one parameter which will be a persons name.
-// Have it output "Hello (persons name)"
-
+// Function that returns a greeting message with the person's name
 function helloMessage(name) {
-  return;
+  return `Hello ${name}`;
 }
+
+console.log(helloMessage("Alice")); // 
+
 
 // Problem 5
-// The function name will be favColor.
-// It will take one parameter which will be a color.
-// If the color is blue or red or green return "That is a great color!".
-// If the color is yellow return "Just like the sun!".
-// If it is any other color return "Great choice!".
-
+// Function that returns a response based on the color provided
 function favColor(color) {
-  
+  if (color === "blue" || color === "red" || color === "green") {
+    return "That is a great color!";
+  } else if (color === "yellow") {
+    return "Just like the sun!";
+  } else {
+    return "Great choice!";
+  }
 }
+
+console.log(favColor("blue"));    
+console.log(favColor("yellow"));  
+console.log(favColor("purple"));  
