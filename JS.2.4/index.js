@@ -14,7 +14,16 @@ let addTo;
 function adding(myNum) {
   addTo = myNum;
   
-  //write for loop here
+let addTo;
+function adding(myNum) {
+  addTo = myNum;
   
+  for (let i = 0; i < 10; i++) {
+    addTo += i; // Add the iterator to addTo each loop
+  }
+  
+  console.log(addTo); // Display the result after the loop completes
+}
+
   
 }
