@@ -1,19 +1,19 @@
-// Go to the instructions file first!!
-
 //-----------------
 // Problem 1
 //-----------------
 
 // I will give you a color through the 'color' parameter.
 // We want to know if the color is either 'green' or 'yellow'.
-// If its 'green' or 'yellow' have favGreenOrYellow be true.
+// If it's 'green' or 'yellow', set favGreenOrYellow to true.
 
 let favGreenOrYellow = false;
 function problem1(color) {
-  //write code here
-  if(color == "green" || color == "yellow") favGreenOrYellow = true;
-  
-  
+  if (color === "green" || color === "yellow") {
+    favGreenOrYellow = true;
+  } else {
+    favGreenOrYellow = false; // Reset to false if any other color is passed
+  }
+  console.log(`Favorite Green or Yellow: ${favGreenOrYellow}`);
 }
 
 //-----------------
@@ -23,15 +23,16 @@ function problem1(color) {
 // We want to create a game where the user guesses what number
 // the computer is thinking of between 1-100.
 // I will give you a number through the 'guess' parameter.
-// We need to first test to make sure the 'guess' is a valid number.
-// If the guess is greater than 0 and less than 101 then our 
-// validInput variable should be true.
+// If the guess is greater than 0 and less than 101, validInput should be true.
 
 let validInput = false;
 function problem2(guess) {
-  //write code here
-  if(guess > 0 && guess <= 100) validInput = true;
-  
+  if (guess > 0 && guess <= 100) {
+    validInput = true;
+  } else {
+    validInput = false; // Reset to false if guess is out of range
+  }
+  console.log(`Valid Input: ${validInput}`);
 }
 
 
@@ -39,16 +40,15 @@ function problem2(guess) {
 // Problem 3
 //-----------------
 
-// Similar to problem 1 we are going to test if a user enters 'green' or 'yellow'
-// as their favorite color. We also want to test if they enter the 
-// hex code for green('#00ff00') or yellow('#ffff00'). If any of these 4 inputs
-// are entered then we want our favGreenOrYellowWithHex variable to be true.
-// The input will be given through the 'color' parameter.
+// We want to test if a user enters 'green', 'yellow', '#00ff00', or '#ffff00'.
+// If any of these 4 inputs are entered, set favGreenOrYellowWithHex to true.
 
 let favGreenOrYellowWithHex = false;
 function problem3(color) {
-  //write code here
-  if(color == "yellow" || color == "#ffff00" || color == "green" || color == "#00ff00"){
+  if (color === "green" || color === "yellow" || color === "#00ff00" || color === "#ffff00") {
     favGreenOrYellowWithHex = true;
+  } else {
+    favGreenOrYellowWithHex = false; // Reset to false for any other input
   }
+  console.log(`Favorite Green or Yellow with Hex: ${favGreenOrYellowWithHex}`);
 }
