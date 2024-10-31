@@ -1,69 +1,34 @@
-// Look at the instructions.md file first!!
-
 // Problem 1
-// Lets start simple. We will do something very similar to how a 
-// for loop works and what the instructor did in the videos when 
-// demonstrating while loops.
-
-// We have a variable 'i' that is set to 0. Create a while loop that loops
-// five times. Increment 'i' each time.
-
+// Create a while loop that loops five times and increments 'i' each time.
 let i = 0;
-
-//write loop here
-
-
+while (i < 5) { 
+  i++; 
+}
+console.log(i); // i will be 5 after the loop
 
 // Problem 2
-// Another way to write a while loop is to have a boolean variable 
-// where the condition goes and then test every time if you need to
-// change the boolean to false.
-
-// Below we have a variable lessThan5 and it is set to true.
-// Create a loop that tests if our variable 'j' is less than 5.
-// If it is less than 5 then Increment it by 1. If it is not 
-// less than 5 then set our lessThan5 variable to be false.
-
+// Create a loop that tests if 'j' is less than 5 and increments it.
+// If 'j' is not less than 5, set lessThan5 to false.
 let lessThan5 = true;
 let j = 0;
 
-while(lessThan5) {
-  
-  lessThan5 = false;
-  
-}
-
-
-
-// Example of what the number game would look like:
-// Couple things to note:
-// Math is a built in object in javascript.
-// Math.round() will round a decimal number to a whole number.
-// Math.random() returns a decimal number between 0 to 1.
-// (But not including 1)
-
-function guessNumberGame(guess) {
-  let guessing = true;
-  let number = Math.round(Math.random() * 100);
-  while(guessing) {
-    if(guess === number) {
-      guessing = false;
-    } else {
-      guess = Number(prompt("That number didn't work. Try again: "));
-    }
+while (lessThan5) {
+  if (j < 5) {
+    j++; 
+  } else {
+    lessThan5 = false; 
   }
 }
+console.log(j); 
 
 // Problem 3
-// We will give you a number through the 'num' parameter
-// Create a while loop that will loop 'num' amount of times.
-// For example if num is 3 then your while loop should loop 3 times
-// If num is 20 then the loop should loop 20 times.
-// Increment k every loop.
-
+// Create a while loop that loops 'num' times, incrementing 'k' each time.
 let k = 0;
 function keepLooping(num) {
-  
-  
+  let count = 0;
+  while (count < num) {
+    k++; 
+    count++; 
+  }
+  console.log(k); 
 }
-
